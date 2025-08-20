@@ -30,6 +30,10 @@ body{
     margin: 20px;
 }
 
+.header-links a:hover{
+    color: lightslategrey;
+}
+
 .header, .footer{
   display: flex;
   justify-content: space-between;
@@ -40,4 +44,49 @@ body{
     justify-content: center;
     text-align: center;
     margin-right: 500px;
+}
+
+.section1{
+    display: flex;
+    background-color: #1F2937;
+    padding-top: 80px;
+    padding-bottom: 100px;
+    gap: 200px;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    justify-content: flex-start;
+    text-align: start;
+}
+
+.hero-title{
+    font-weight: 900;
+    color: #F9FAF8;
+    font-size: 48px;
+}
+
+.hero-subtext{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-btn{
+    max-width: 130px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #3882F6;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.hero-btn:hover{
+    background-color: lightskyblue;
+    color: black;
 }
