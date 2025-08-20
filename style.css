@@ -137,6 +137,7 @@ body{
     text-align: end;
     font-weight: 900;
     font-size: 25px;
+    padding-top: 20px;
 }
 
 .size{
@@ -145,4 +146,52 @@ body{
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+}
+
+.container{
+    background-color: #3882F6;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 12px;
+    gap: 400px;
+}
+
+.section4{
+    padding: 130px;
+}
+
+.container-title{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.container-text{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.left-txt{
+    justify-content: left;
+    text-align: left;
+}
+
+.right-btn button{
+    border-color: #F9FAF8;
+    background-color: #3882F6;
+    padding: 10px;
+    color: #E5E7EB;
+    cursor: pointer;
+    font-size: 15px;
+    border-radius: 12px;
+    min-width: 50px;
+}
+
+.right-btn button:hover{
+   background-color: lightskyblue;
+    color: black;
 }
