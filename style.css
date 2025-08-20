@@ -1,0 +1,43 @@
+.header{
+    display: flex;
+    justify-content: space-between;    
+    text-align: center;
+    background-color: #1F2937;
+}
+
+body{
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+  font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo a{
+    font-size: 40px;
+    color: #F9FAF8;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 20px;
+    margin-left: 250px;
+}
+
+.header-links a{
+    text-decoration: none;
+    color:#E5E7EB;
+    font-size: 18px;
+    margin: 20px;
+}
+
+.header, .footer{
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+.header-links{
+    justify-content: center;
+    text-align: center;
+    margin-right: 500px;
+}
